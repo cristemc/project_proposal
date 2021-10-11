@@ -8,6 +8,7 @@ LA County, LA City, LAUSD?
 ## Data Sources
 ### National data sources
 *US Census Bureau*
+- [Demographic data for Los Angeles County](https://github.com/cristemc/data/blob/main/R12915135_SL150.csv) at the block level. Variables selected include age, sex, race, income, employment status, poverty status, gini index, etc.
 *Federal Communications Commission*
 - Form 477: Form is completed twice a year on June 30 and December 31. 
 -- Fixed broadband
@@ -15,7 +16,7 @@ LA County, LA City, LAUSD?
 - [Staff Block Estimates](LINK HERE): Based on public data from the US Census Bureau and Open Street Maps, this block level dataset estimates the housing unit, household and population counts for each census block. Will need to be filtered to only include the spatial scope.
 ### State data sources
 *CA Department of Education*
-Using the California Department of Education's [DataQuest](https://dq.cde.ca.gov/dataquest/), you can retrieve data on [graduation](https://github.com/cristemc/project_proposal/blob/main/CohortGradRates20172018.csv)/[dropout rate](https://github.com/cristemc/project_proposal/blob/main/CohortDropoutRates20172018.csv), school attendance, and [english learner reclassification](https://github.com/cristemc/project_proposal/blob/main/EnglishLearnerReclassificationRatesOD-20172018.csv). 
+- Using the California Department of Education's [DataQuest](https://dq.cde.ca.gov/dataquest/), you can retrieve data on [graduation](https://github.com/cristemc/project_proposal/blob/main/CohortGradRates20172018.csv)/[dropout rate](https://github.com/cristemc/project_proposal/blob/main/CohortDropoutRates20172018.csv), school attendance, and [english learner reclassification](https://github.com/cristemc/project_proposal/blob/main/EnglishLearnerReclassificationRatesOD-20172018.csv). 
 ### Municipal data sources
 *Los Angeles County*
 - [Public Internet Access shapefile](https://github.com/cristemc/project_proposal/tree/main/Public_Internet_Access) includes latitude and longitude of libraries and community centers that offer public wifi. This list is not comprehensive of *all* points, it will need to be joined with other datasets that include [elementary](https://github.com/cristemc/project_proposal/tree/main/Public_Elementary_Schools), [middle](https://github.com/cristemc/project_proposal/tree/main/Public_Middle_Schools), and [high schools](https://github.com/cristemc/project_proposal/tree/main/Public_High_Schools) and [adult education centers](https://github.com/cristemc/project_proposal/tree/main/Adult_Education). A more comphrehensive list will demonstrate if broadband resources are equitably distributed. 
