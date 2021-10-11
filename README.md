@@ -9,11 +9,12 @@ LA County, LA City, LAUSD?
 ### National data sources
 *US Census Bureau*
 - [Demographic data for Los Angeles County](https://github.com/cristemc/data/blob/main/R12915135_SL150.csv) at the block level. Variables selected include age, sex, race, income, employment status, poverty status, gini index, etc.
+
 *Federal Communications Commission*
-- Form 477: Form is completed twice a year on June 30 and December 31. 
-  - Fixed broadband
-  - Mobile broadband 
-- [Staff Block Estimates](LINK HERE): Based on public data from the US Census Bureau and Open Street Maps, this block level dataset estimates the housing unit, household and population counts for each census block. Will need to be filtered to only include the spatial scope.
+- Form 477: Form is completed twice a year on June 30 and December 31. These datasets include number of providers available and technology type. This is valuale because many policymakers believe increased competition will result in lower prices for consumers and increase technological advancements.
+  - Fixed broadband deployment as of June 2020, [link to SODA API](https://opendata.fcc.gov/resource/4kuc-phrr.json)
+  - Mobile broadband deployment as of June 2020, [link to hosted dataset](https://drive.google.com/file/d/1vBy2drB0ifyORxF9Ia5DXHoVomzG0gCB/view?usp=sharing) 
+- [Staff Block Estimates](https://drive.google.com/file/d/1SzMmbzD606cw1Bn49YNLl4FngjxJ70y3/view?usp=sharing): Based on public data from the US Census Bureau and Open Street Maps, this block level dataset estimates the housing unit, household and population counts for each census block. Will need to be filtered to only include the spatial scope.
 ### State data sources
 *CA Department of Education*
 - Using the California Department of Education's [DataQuest](https://dq.cde.ca.gov/dataquest/), you can retrieve data on [graduation](https://github.com/cristemc/project_proposal/blob/main/CohortGradRates20172018.csv)/[dropout rate](https://github.com/cristemc/project_proposal/blob/main/CohortDropoutRates20172018.csv), school attendance, and [english learner reclassification](https://github.com/cristemc/project_proposal/blob/main/EnglishLearnerReclassificationRatesOD-20172018.csv). 
