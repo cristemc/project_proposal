@@ -11,8 +11,8 @@ LA County, LA City, LAUSD?
 - [Demographic data for Los Angeles County](https://github.com/cristemc/data/blob/main/R12915135_SL150.csv) at the block level. Variables selected include age, sex, race, income, employment status, poverty status, gini index, etc.
 *Federal Communications Commission*
 - Form 477: Form is completed twice a year on June 30 and December 31. 
--- Fixed broadband
--- Mobile broadband 
+  - Fixed broadband
+  - Mobile broadband 
 - [Staff Block Estimates](LINK HERE): Based on public data from the US Census Bureau and Open Street Maps, this block level dataset estimates the housing unit, household and population counts for each census block. Will need to be filtered to only include the spatial scope.
 ### State data sources
 *CA Department of Education*
@@ -21,5 +21,5 @@ LA County, LA City, LAUSD?
 *Los Angeles County*
 - [Public Internet Access shapefile](https://github.com/cristemc/project_proposal/tree/main/Public_Internet_Access) includes latitude and longitude of libraries and community centers that offer public wifi. This list is not comprehensive of *all* points, it will need to be joined with other datasets that include [elementary](https://github.com/cristemc/project_proposal/tree/main/Public_Elementary_Schools), [middle](https://github.com/cristemc/project_proposal/tree/main/Public_Middle_Schools), and [high schools](https://github.com/cristemc/project_proposal/tree/main/Public_High_Schools) and [adult education centers](https://github.com/cristemc/project_proposal/tree/main/Adult_Education). A more comphrehensive list will demonstrate if broadband resources are equitably distributed. 
 - [Guidance and tutoring programs shapefile](https://github.com/cristemc/project_proposal/tree/main/Guidance_and_Tutoring_Programs) While these locations are not considered to be public access points, I am interested to see if there are more programs in high adoption areas versus areas with limited access. Are there more programs around areas that need support/resources or in areas with greater advantages? 
-*City of Los Angeles*
+- [School district boundaries](https://github.com/cristemc/project_proposal/tree/main/School_District_Boundaries) allows us to aggregate block/tract level data for comparison accross the county.
 ## Project intentions
